@@ -1,0 +1,25 @@
+Comandos e ações necessárias para compilar e executar a aplicação
+
+No terminal, rode o seguinte comando par compilar o código
+
+g++ main.cpp -o main.exe
+
+Tal comando irá gerar um arquivo executável chamado main.exe.
+Logo em seguida para executar programa rode o seguinte comando
+
+./main.exe
+
+Observações Importantes:
+
+1. Para faciliar a parte de compilação e execução, você pode
+   rodar o seguinte comando simplificado:
+   g++ main.cpp -o main.exe && ./main.exe
+
+2. Essa aplicação não faz tratamento de entrada, então certifique-se
+   de que você esta entrando com os formatos corretos para as entradas.
+   Os formatos das entradas são descritas pelo terminal através de 
+   mensagens.
+
+3. Os comandos de compilação e execução já supracitados são funcionais 
+   em ambientes linux. Não há garantias de que em outros ambientes, como
+   windows ou macos, tais comandos serão aceitos.
